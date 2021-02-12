@@ -1,10 +1,13 @@
-import  './homepage.scss'
-import  Directory from '../../components/directory/directory'
 
-const HomePage =  () => (
-    <div className='homepage'>
-      <Directory />
-    </div>
+import Directory from '../../components/directory/directory'
+
+import {HomepageContainer } from './homepage-stlye'
+
+const HomePage = () => (
+  <HomepageContainer>
+          <Directory />
+  </HomepageContainer>
+      
 )
 
 export default HomePage
